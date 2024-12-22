@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Clientes Felices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e6e0;
+            color: #7d4a3c;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img { 
+            max-width: 150px;
+        }
+
+        nav {
+            background-color: #ffcccb;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #7d4a3c;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Asegura que las imágenes tengan buen tamaño */
+            gap: 30px; /* Aumenta la separación entre las imágenes */
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery-item {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out; /* Efecto al pasar el ratón */
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover; /* Asegura que la imagen cubra bien el contenedor */
+        }
+
+        .gallery-item p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #7d4a3c;
+        }
+
+        .gallery-item h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #7d4a3c;
+        }
+
+        footer {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header con el logo -->
+    <header>
+        <img src="logo.png" alt="Logo de M&M Cake"> <!-- Asegúrate de poner la ruta correcta del logo -->
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+         <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+        </ul>
+    </nav>
+
+    <!-- Galería de clientes felices -->
+    <div class="gallery-container">
+        <!-- Primer Cliente -->
+        <div class="gallery-item">
+            <img src="imagen1.JPEG" alt="Cliente 1">
+            <h3>Cliente Feliz 1</h3>
+            <p>"¡Las flores de M&M hicieron mi día aún más especial!"</p>
+        </div>
+
+        <!-- Segundo Cliente -->
+        <div class="gallery-item">
+            <img src="imagen15.JPEG" alt="Cliente 2">
+            <h3>Cliente Feliz 2</h3>
+            <p>"Un detalle perfecto para cualquier ocasión. ¡Gracias!"</p>
+        </div>
+
+        <!-- Tercer Cliente -->
+        <div class="gallery-item">
+            <img src="imagen3.JPEG" alt="Cliente 3">
+            <h3>Cliente Feliz 3</h3>
+            <p>"¡Las flores duraron mucho tiempo! Un servicio increíble."</p>
+        </div>
+
+        <!-- Cuarto Cliente -->
+        <div class="gallery-item">
+            <img src="imagen4.JPEG" alt="Cliente 4">
+            <h3>Cliente Feliz 4</h3>
+            <p>"¡El ramo fue un regalo maravilloso, recomiendo al 100%!"</p>
+        </div>
+
+        <!-- Quinto Cliente -->
+        <div class="gallery-item">
+            <img src="imagen5.JPEG" alt="Cliente 5">
+            <h3>Cliente Feliz 5</h3>
+            <p>"Un detalle tan hermoso, siempre volveré a pedir más flores."</p>
+        </div>
+
+        <!-- Sexto Cliente -->
+        <div class="gallery-item">
+            <img src="imagen6.JPEG" alt="Cliente 6">
+            <h3>Cliente Feliz 6</h3>
+            <p>"¡Recibí un ramo espectacular para mi cumpleaños, excelente calidad!"</p>
+        </div>
+
+        <!-- Séptimo Cliente -->
+        <div class="gallery-item">
+            <img src="imagen7.JPEG" alt="Cliente 7">
+            <h3>Cliente Feliz 7</h3>
+            <p>"¡El servicio fue rápido y las flores llegaron perfectas!"</p>
+        </div>
+
+        <!-- Octavo Cliente -->
+        <div class="gallery-item">
+            <img src="imagen8.JPEG" alt="Cliente 8">
+            <h3>Cliente Feliz 8</h3>
+            <p>"Me encantó el diseño del ramo, ¡lo volveré a pedir sin dudarlo!"</p>
+        </div>
+
+        <!-- Noveno Cliente -->
+        <div class="gallery-item">
+            <img src="imagen9.JPEG" alt="Cliente 9">
+            <h3>Cliente Feliz 9</h3>
+            <p>"¡Excelente atención, las flores hicieron que mi evento fuera perfecto!"</p>
+        </div>
+
+        <!-- Décimo Cliente -->
+        <div class="gallery-item">
+            <img src="imagen10.JPEG" alt="Cliente 10">
+            <h3>Cliente Feliz 10</h3>
+            <p>"¡Mi mamá adoró el ramo! ¡Un regalo muy especial y lleno de cariño!"</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 M&M Cake - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

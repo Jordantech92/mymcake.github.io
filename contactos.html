@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - M&M Cake - Rosas Eternas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9e2f5; /* Fondo suave rosado */
+            color: #7d4a3c; /* Texto color oscuro */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8c4d7; /* Color de fondo header rosado claro */
+        }
+        header img {
+            max-width: 100px;
+        }
+        nav {
+            background-color: #ffffff;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #d56f8b; /* Color rosado suave para los enlaces */
+            font-weight: bold;
+        }
+        .contact-section {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff7fb; /* Fondo rosa suave */
+        }
+        .contact-section h2 {
+            text-align: center;
+            color: #d56f8b; /* Título color rosado suave */
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info div {
+            width: 200px;
+        }
+        .contact-info div h3 {
+            color: #d56f8b; /* Título de la sección color rosado suave */
+        }
+        .contact-info div p {
+            color: #7d4a3c; /* Color del texto de la dirección, teléfono, email */
+            font-size: 16px;
+        }
+        .contact-info .info-box {
+            background-color: #ffcccb; /* Fondo suave rosado */
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #7d4a3c;
+        }
+        .contact-info .attention-message {
+            color: #d56f8b; /* Color rosado para el mensaje de atención */
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 15px;
+            text-align: center;
+        }
+        .contact-section .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f8d0e1; /* Fondo rosado suave */
+        }
+        .contact-section .form-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .contact-section .form-container input, .contact-section .form-container textarea {
+            padding: 10px;
+            border: 1px solid #d56f8b; /* Borde color rosado */
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #fff;
+        }
+        .contact-section .form-container button {
+            padding: 10px;
+            background-color: #d56f8b; /* Botón color rosado */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-section .form-container button:hover {
+            background-color: #f4a3b1; /* Hover de color rosado más claro */
+        }
+        footer {
+            background-color: #f8c4d7; /* Fondo rosado claro en el pie de página */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer .social-buttons a {
+            padding: 10px 20px;
+            background-color: #f8d0e1; /* Fondo rosado para los botones */
+            border-radius: 5px;
+            color: #7d4a3c;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: background-color 0.3s;
+        }
+        footer .social-buttons a:hover {
+            background-color: #d56f8b; /* Cambio de color al hacer hover */
+        }
+        footer .social-buttons a span {
+            font-size: 20px; /* Tamaño del emoji */
+        }
+
+        .comment {
+            background-color: #f8d0e1; /* Fondo rosado suave */
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .comment strong {
+            color: #d56f8b; /* Color rosado suave para el nombre */
+        }
+
+        .comment p {
+            color: #7d4a3c; /* Color de texto del comentario */
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo M&M Cake" title="Imagen del negocio"> <!-- Imagen del logo -->
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-section">
+        <h2>Contáctanos</h2>
+
+        <div class="contact-info">
+            <div>
+                <h3>Dirección e Información</h3>
+                <div class="info-box">
+                    <p>La tienda está ubicada en la Barriada 24 de Agosto, diagonal al gimnasio Linver.</p>
+                </div>
+                <div class="attention-message">
+                    <p>¡Atención! Nuestra tienda abre de manera presencial solo en fechas especiales. <br> ¡Síguenos en nuestras redes sociales para estar al tanto de nuestras aperturas!</p>
+                </div>
+            </div>
+
+            <div>
+                <h3>Teléfono</h3>
+                <p>0967394703</p>
+            </div>
+            <div>
+                <h3>Email</h3>
+                <p>contacto@mymcake.com</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h3>Déjanos tu Comentario</h3>
+            <form id="commentForm">
+                <input type="text" id="nombre" placeholder="Tu nombre" required>
+                <textarea id="comentario" placeholder="Escribe tu comentario" rows="5" required></textarea>
+                <button type="submit">Enviar Comentario</button>
+            </form>
+        </div>
+
+        <div class="comments" id="commentsSection">
+            <!-- Los comentarios se mostrarán aquí -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-buttons">
+            <!-- Botones con emojis para redes sociales -->
+            <a href="https://www.instagram.com/mym.cakes.ec?igsh=azZ3YmM2Y2J6MjRu" target="_blank" title="Ir a Instagram">
+                <span>🌹</span> Instagram
+            </a>
+            <a href="https://www.tiktok.com/@mym.cakes.ec?_t=8ryoVr42QMh&_r=1" target="_blank" title="Ir a TikTok">
+                <span>🌸</span> TikTok
+            </a>
+            <a href="https://wa.me/0967394703" target="_blank" title="Enviar mensaje a WhatsApp">
+                <span>🌺</span> WhatsApp
+            </a>
+        </div>
+        <p>&copy; 2024 M&M Cake. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('commentForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevenir que el formulario se envíe
+
+            // Obtener los valores de los campos
+            var nombre = document.getElementById('nombre').value;
+            var comentario = document.getElementById('comentario').value;
+
+            if (nombre && comentario) {
+                // Crear el div para el nuevo comentario
+                var newComment = document.createElement('div');
+                newComment.classList.add('comment');
+
+                // Añadir el contenido del comentario
+                newComment.innerHTML = '<strong>' + nombre + ':</strong><p>' + comentario + '</p>';
+
+                // Añadir el comentario al contenedor de comentarios
+                document.getElementById('commentsSection').appendChild(newComment);
+
+                // Limpiar los campos del formulario después de enviar
+                document.getElementById('nombre').value = '';
+                document.getElementById('comentario').value = '';
+            } else {
+                alert('Por favor, completa todos los campos.');
+            }
+        });
+    </script>
+
+</body>
+</html>

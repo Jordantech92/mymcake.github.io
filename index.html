@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="M&M Cake - Las mejores flores para cualquier ocasión. Personalizamos ramos de flores frescas para hacer tu día especial.">
+    <meta name="keywords" content="flores, ramos, regalos, floristería, decoración, M&M Cake">
+    <title>M&M Cake - Flores para Cada Momento Especial</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fbe6f3; /* Color rosado pastel de fondo */
+            color: #d18a9d; /* Color rosa suave para el texto */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background-color: #fbe6f3; /* Color rosado pastel de fondo */
+        }
+
+        header img { 
+            width: 20%; /* Hacer que la imagen ocupe el 100% del ancho del contenedor shir */
+            height: auto; /* Mantener la proporción */
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #d18a9d; /* Título en rosa suave */
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #b77075; /* Color rosa más oscuro para el texto secundario */
+        }
+
+        nav {
+            background-color: #ffffff; /* Barra de navegación blanca */
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #d18a9d; /* Enlace en rosa suave */
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #b77075; /* Cambio de color en el hover */
+        }
+
+        /* Galería de imágenes */
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px; /* Espaciado entre las imágenes */
+            padding: 20px;
+        }
+
+        .gallery-item {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 30%; /* Ajusta el tamaño del contenedor de la imagen */
+            text-align: center;
+            margin-bottom: 20px; /* Espacio entre las filas */
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+        }
+
+        .gallery-item img {
+            width: 100%; /* Las imágenes ocuparán el 100% del ancho de su contenedor */
+            height: 200px; /* Establece una altura constante para todas las imágenes */
+            object-fit: cover; /* Asegura que la imagen mantenga su aspecto sin distorsionarse */
+            border-radius: 10px 10px 0 0;
+        }
+
+        .gallery-item a {
+            display: block;
+            background-color: #d18a9d; /* Botón rosado */
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 0 0 10px 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .gallery-item a:hover {
+            background-color: #b77075; /* Cambio de color del enlace al pasar el ratón */
+        }
+
+        footer {
+            background-color: #ffffff; /* Fondo blanco para el footer */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-description {
+            font-size: 19px;
+            color: #b77075;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header con la imagen principal -->
+    <header>
+        <img src="logo.png" alt="Imagen de flores"> <!-- Cambia la ruta de la imagen aquí -->
+        <h1>Bienvenidos a M&M Cake</h1>
+        <p>Flores frescas para cada ocasión, con el toque perfecto para ti.</p>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+        </ul>
+    </nav>
+
+    <!-- Galería de imágenes -->
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="imagen1.JPEG" alt="Ramo de flores 1"> <!-- Cambia la ruta de la imagen aquí -->
+            <a href="link1.html">Ver más</a> <!-- Enlace para ver más detalles de la imagen -->
+            <div class="image-description">DESAYUNOS</div> <!-- Descripción de la imagen -->
+        </div>
+
+        <div class="gallery-item">
+            <img src="imagen 2.JPEG" alt="Ramo de flores 2"> <!-- Cambia la ruta de la imagen aquí -->
+            <a href="link2.html">Ver más</a> <!-- Enlace para ver más detalles de la imagen -->
+            <div class="image-description">FLORES</div> <!-- Descripción de la imagen -->
+        </div>
+
+        <div class="gallery-item">
+            <img src="imagen3.JPEG" alt="Ramo de flores 3"> <!-- Cambia la ruta de la imagen aquí -->
+            <a href="link3.html">Ver más</a> <!-- Enlace para ver más detalles de la imagen -->
+            <div class="image-description">POSTRES</div> <!-- Descripción de la imagen -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 M&M Cake - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
